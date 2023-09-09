@@ -1,0 +1,171 @@
+
+
+.banner-3 {
+    background-color: black;
+    height: 1000px;
+    padding: 152px;
+
+
+}
+
+.fb {
+    font-family: 'Gentona';
+    font-weight: 500;
+    line-height: 1;
+    color: white;
+
+    font-size: 48px;
+    display: block;
+    text-shadow: 1.152px 1.152px 0px #000000, 1.728px 1.728px 0px #92C83E;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-4 {
+    background-color: white;
+    height: 500px;
+    padding: 152px;
+}
+
+.fb3 {
+    font-size: 48px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Gentona';
+    line-height: 1;
+    letter-spacing: -1px;
+
+}
+.tdimg{
+    padding: 20px;
+}
+.banner-5{
+    display: flex;
+    padding: 152px;
+    margin-top: 100px;
+}
+.text{
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: 94px;
+}
+.riders{
+    margin-left: 90px;
+    margin-top: 40px;
+    
+}
+.para{
+    margin-left: 90px;
+    font-size: large;
+    margin-top: 5px;
+ 
+}
+.banner-6{
+    padding: 152px;
+    margin-top: 100px;
+    background-color:#F1F6E9;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+.banner6-1{
+    display: flex;
+}
+.green-title{
+    color: #16AA51;
+    padding: 8px;
+    background: rgba(22, 170, 81, 0.1);
+    width: 200px;
+}
+.para2{
+    margin-left: 30px;
+    font-size: large;
+   
+}
+.para3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 12px;
+}
+.insimg{
+    margin-left: 30px;
+    margin-top: 30px;
+   
+    flex-direction: column;
+    width: 128px;
+    gap: 24px;
+}
+
+.insimg>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.86);
+    max-width: 100px;
+}
+.flexspace{
+    display: flex;
+    justify-content: space-between;
+}
+.item-c {
+    grid-area: c;
+    align-self: end;
+    gap: 8px;
+}
+.flex{
+    display: flex;
+}
+.space{
+    margin-top: 100px;
+}
+.space>h1{
+    margin-top: 15px;
+    max-width: 373px;
+}
+.space>p{
+    color: #16AA51;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 25px;
+}
+/* .sqr1{
+    height: 180px;
+    width: 180px;
+    padding: 15px;
+    background-color: rgb(110, 91, 78);
+    margin-top: 100px;
+    margin-left: 70px;
+    color: white;
+    font-size: 15px;
+} */
+div[class*="sqr"]{
+    height: 180px;
+    width: 180px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 70px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;   
+}
+.sqr-1{
+    background-color: rgb(110, 91, 78);
+}
+.sqr-2{
+    background-color: rgb(85, 98, 152);
+}
+.sqr-3{
+    background-color: rgb(113, 193, 106);
+    
+
+}

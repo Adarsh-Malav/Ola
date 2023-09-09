@@ -1,0 +1,420 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-header{
+    background-color: black;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+
+}
+.ola-logo{
+    margin-left: 15px;
+}
+.ola-logo img{
+    width: 52px;
+    height: 32px;
+    margin-top: 15px;
+}
+.hamburger{
+    position: absolute;
+    right: 6px;
+    top: 23px;
+
+}
+.header-icons{
+    margin-left: 45px;
+}
+.header-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 22px;
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+}
+
+.background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(ola-images/hero-banner.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+    /* overflow: hidden; */
+    /* -o-object-fit: cover; */
+    /* object-fit: cover; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+    
+}
+.background p{
+    color: rgb(255, 255, 255);
+    max-width: 320px;
+    text-align: left;
+    position: absolute;
+    top: 22vh;
+    left: 16.5%;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    font-family: sans-serif
+}
+.right-bts{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    /* top: 10px; */
+}
+.right-bts-left{
+    color: white;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 14px 12px;
+    line-height: 16px;
+    margin: 10px;
+
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.right-bts-right{
+    color: #000000;
+    background: rgb(255, 255, 255);
+    padding: 14px 12px;
+    line-height: 16px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.section-banner {
+    width: 69%;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 90px;
+}
+.section-banner img{
+    width: 100%;
+}
+.section2{
+background-color: white;
+width: 69%;
+height: 150px;
+margin: 0 auto;
+display: flex;
+text-align: center;
+margin-top: 100px;
+}
+.section2 h1{
+color: black;
+font-size: 44px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+}
+.cubes{
+width: 750px;
+height: 300px;
+margin: 0 auto;
+display: flex;
+margin-top: 20px;
+}
+.cube1{
+/* margin-left: 20px; */
+width: 250px;
+/* display: flex;s */
+}
+.cube2{
+width: 250px;
+}
+.cube3{
+width: 250px;
+}
+.cube1 img{
+width: 125px;
+margin-left: 50px;
+}
+.cube2 img{
+width: 125px;
+margin-left: 50px;
+}
+
+.cube3 img{
+width: 125px;
+margin-left: 50px;
+}
+
+.top-side{
+display: flex;
+justify-content: flex-end;
+}
+
+.sideNav{
+    width: 0px;
+    z-index: 2;
+    position: fixed;
+    height: 768px;
+    background-color: white;
+    overflow-x: hidden;
+    
+}
+.sideNav > img{
+    position: absolute;
+    right: 6px;
+    top: 16px;
+    display: inline-block;
+}
+.sideNav a{
+display: block;
+text-decoration: none;
+color: rgb(36, 35, 35);
+margin-top: 32px;
+text-align: center;
+font-weight: 600;
+font-family: sans-serif;
+
+}
+.pink-banner img{
+width: 346px;
+margin-left: 24px;
+}
+.cube1 img+p, .cube2 img+p, .cube3 img+p{
+font-size: 25px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+.cube1 img+p+p, .cube2 img+p+p, .cube3 img+p+p{
+font-size: 28px;
+font-weight: 500px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+.cube1 img+p+p+p, .cube2 img+p+p+p, .cube3 img+p+p+p{
+color: #212026;
+opacity: 0.64;
+max-width: 60%;
+margin: auto;
+font-weight: 400;
+line-height: 24px;
+font-size: 14px;
+text-align: center;
+margin-top: 13px;
+}
+.icons{
+font-size: 22px;
+font-weight: 400;
+line-height: 1;
+margin-right: 20px;
+}
+.ola-side-icon{
+width: 40px;
+height: 16px;margin-left: 24px;
+}
+.sidebar-icons{
+display: flex;
+}
+.sidebar-icons div{
+position: absolute;
+right: 0;
+justify-content: space-between;
+}
+
+.section{
+background-color: white;
+width: 100%;
+
+margin: 0 auto;
+position: relative;
+bottom: 96px;
+}
+.box1{
+width: 370px;
+height: 38px;
+background-color: white; 
+}
+.box2{
+width: 100%;
+height: 110px;
+background-color: rgb(232, 226, 226);
+display: flex;
+
+}
+.box1 a{
+display: inline-block;
+text-decoration: none;
+margin-left: 59px;
+margin-top: 9px;
+color: rgb(61, 59, 59);
+font-family: sans-serif;
+}
+.box2-box{
+width: 240px;
+height: 60px;
+margin-left: 35px;
+margin-top: 25px;
+background-color: rgb(255, 255, 255);
+border: 3px solid rgb(205, 198, 198);
+padding-left: 20px;
+padding-top: 20px;
+display: flex;
+}
+.box2-box input{
+    border: none;
+    margin-top: -16px;
+    margin-left: 17px;
+}
+.box2-box input::placeholder{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+}
+
+.dot-green {
+    height: 8px;
+    width: 8px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+.dot-red {
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+    
+  }
+  .box3{
+    background-image: url(ola-images/ola_cabs_back.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-clip: border-box;
+    background-color: #000000;
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: -3px 3px 0 #32c86e;
+
+}
+.box3 p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.box3 img{
+    width: 15px;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+}
+
+
+
+/* middle part */
+
+
+  .foundation{
+    width: 100%;
+    height: 849px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+ 
+    
+}
+.fo-container{
+  
+    width: 910px;
+    height: 100%;
+    margin: 0 auto;
+}
+.fo-container h2{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 3px 3px 0 #32c86e;
+}
+.fo-description{
+    display: flex;
+    margin-top: 10px;
+}
+.fo-description-box1{
+flex: 2;
+}
+.fo-description-box1 p{
+    /* grid-area: a; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #5c5c5c
+}
+
+
+.fo-description-box2{
+flex: 1;
+}
+
+.fo-description-box2 p{
+    padding-left: 22px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fo-description-box2 p+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5c5c5c;
+    font-family: serif;
+
+}
+
+.fo-images{
+    display: flex;
+    margin-top: 20px;
+   
+}
+.fo-images-1{
+    width: 48%;
+    /* height: 200px; */
+}
+.fo-images-2{
+    width: 48%;
+    /* height: 200px; */
+}
+.fo-images-2 img{
+    margin-left: 44px;
+    height: 469px;
+}
+.fo-container a{
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    color: #16AA51;
+    cursor: pointer;
+    position: relative;
+    top: 22px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.fo-container span{
+    position: relative;
+    top: 22px;
+    left: 5px;
+}

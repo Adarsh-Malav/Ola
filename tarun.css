@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.class {
+    background-color: black;
+    width: auto;
+    height: 900px;
+    padding-left: 200px;
+    padding-top: 100px;
+  }
+  .class1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+    text-shadow: 0px 2px 0px khaki;
+  }
+  
+  [class*="box"] {
+    color: darkgrey;
+    margin-right: 2px;
+  }
+  .box {
+    width: 300px;
+    font-family: sans-serif;
+  }
+  .box1 {
+    border: 1px solid white;
+    width: 150px;
+    height: 105px;
+    margin-left: 45px;
+    text-align: center;
+  }
+  
+  .box2 {
+    border: 1px solid white;
+    width: 150px;
+    height: 105px;
+    margin-left: 45px;
+    text-align: center;
+  }
+  .box3 {
+    border: 1px solid white;
+    width: 150px;
+    height: 105px;
+    margin-left: 45px;
+    text-align: center;
+  }
+  h3 {
+    color: green;
+  }
+  .flex {
+    display: flex;
+  }
+  .image {
+    margin-top: 30px;
+  }
+  .deepak {
+    background-color: white;
+    height: 550px;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .deepak1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* padding-top: 150px; */
+    margin-bottom: 50px;
+    text-shadow: 3px 1px 1px lavender;
+  }
+  .deepak2 {
+    display: flex;
+  }
+  
+  .army {
+    background-color: lavender;
+    width: 200px;
+    padding: 75px;
+  }
+  
+  .army .ola {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .deepak2:hover .army .ola {
+    color: green;
+  }
+  
+  .deepak2:hover .army .ola::after {
+    content: "\2192";
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .army1 {
+    display: flex;
+    background-color: lavender;
+    width: 350px;
+    height: 369px;
+    font-family: sans-serif;
+    margin-left: 200px;
+  }
+  .ola1 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .ola2 {
+  }
+  
+  .army1 p {
+    width: 350px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .army1:hover .ola1 {
+    color: green;
+  }
+  .army1:hover .ola1::after {
+    content: "\2192";
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .army3 {
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .army3:hover .ola5 {
+    color: green;
+  }
+  .army3:hover .ola5::after {
+    content: "\2192";
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .ola4 {
+    background-color: lavender;
+    width: 350px;
+  }
+  .ola3 {
+    display: flex;
+  }
+  .ola5 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .ola4 p {
+    width: 350px;
+    font-size: 15px;
+    padding-bottom: 100px;
+  }
+  .gaurav {
+    background-color: black;
+    width: auto;
+    height: 800px;
+    padding-left: 200px;
+    padding-top: 100px;
+  }
+  .gaurav1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    text-shadow: 3px 1px 1px lavender;
+  }
+  .rahul {
+    background-color: white;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .rahul1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 0px lavender;
+  }
+  .rahul2 {
+    display: flex;
+    gap: 20px;
+  }
+  .flex1 {
+    display: flex;
+    gap: 23px;
+  }
+  .rahul:hover .flex1 h1 {
+    color: green;
+  }
+  .arma {
+    width: 300px;
+    padding-top: 10px;
+  }
+  .arma1 {
+    width: 300px;
+    padding-top: 10px;
+  }
+  .arma2 {
+    width: 300px;
+    padding-top: 10px;
+  }
+  .tarun {
+    margin-top: 100px;
+  }
