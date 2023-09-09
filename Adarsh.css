@@ -234,8 +234,8 @@ justify-content: space-between;
 }
 
 .section{
-background-color: white;
-width: 100%;
+/* background-color: rgb(204, 193, 193); */
+width: 69%;
 
 margin: 0 auto;
 position: relative;
