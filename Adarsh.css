@@ -131,6 +131,8 @@ height: 300px;
 margin: 0 auto;
 display: flex;
 margin-top: 20px;
+clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
 }
 .cube1{
 /* margin-left: 20px; */

@@ -3,14 +3,15 @@
   margin: 0px;
   padding: 0px;
 }
-.class {
+.class-1 {
     background-color: black;
     width: auto;
     height: 900px;
     padding-left: 200px;
     padding-top: 100px;
+    height: 1150px;
   }
-  .class1 {
+  .class-2 {
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -19,30 +20,34 @@
     text-shadow: 0px 2px 0px khaki;
   }
   
-  [class*="box"] {
+  /* [class*="box"] {
     color: darkgrey;
     margin-right: 2px;
-  }
-  .box {
+  } */
+  .box-0 {
     width: 300px;
     font-family: sans-serif;
+    color: white;
   }
-  .box1 {
+  .box-one {
     border: 1px solid white;
     width: 150px;
     height: 105px;
     margin-left: 45px;
     text-align: center;
+    color: white;
   }
   
-  .box2 {
+  .box-two {
+    color: white;
     border: 1px solid white;
     width: 150px;
     height: 105px;
     margin-left: 45px;
     text-align: center;
   }
-  .box3 {
+  .box-three {
+    color: white;
     border: 1px solid white;
     width: 150px;
     height: 105px;
@@ -54,9 +59,13 @@
   }
   .flex {
     display: flex;
+    /* height: 700px; */
   }
-  .image {
+  .image-0{
     margin-top: 30px;
+    width: 900px;
+    background-color: rgb(33, 128, 128);
+    height: 250px;
   }
   .deepak {
     background-color: white;
@@ -79,7 +88,7 @@
   
   .army {
     background-color: lavender;
-    width: 200px;
+    width: 400px;
     padding: 75px;
   }
   
