@@ -301,7 +301,17 @@ display: flex;
     border-radius: 50%;
     display: inline-block;
     margin-top: 5px;
-    
+  }
+
+  .box-line{
+    width: 50px;
+    height: 55px;
+    border-bottom: 3px solid rgb(205, 198, 198);
+  }
+  .current-location{
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
   }
   .box3{
     background-image: url(ola-images/ola_cabs_back.svg);
