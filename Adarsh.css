@@ -244,9 +244,17 @@ position: relative;
 bottom: 96px;
 }
 .box1{
-width: 370px;
+width: 450px;
 height: 38px;
 background-color: white; 
+display: flex;
+justify-content: space-between;
+
+}
+.box1 div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 .box2{
 width: 100%;
@@ -258,7 +266,7 @@ display: flex;
 .box1 a{
 display: inline-block;
 text-decoration: none;
-margin-left: 59px;
+margin-left: 18px;
 margin-top: 9px;
 color: rgb(61, 59, 59);
 font-family: sans-serif;

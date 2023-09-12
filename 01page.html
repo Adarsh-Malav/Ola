@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Kruti.css">
     <link rel="stylesheet" href="Tarun.css">
     <link rel="stylesheet" href="Yesha.css">
+    <script src="Adarsh.js"></script>
 
 </head>
 <body>
@@ -73,11 +74,22 @@
 
 
     <div class="section">
+
+      <!-- <div style="display: flex;"> -->
         <div class="box1">
-            <a href="">Daily</a>
-            <a href="">Rental</a>
-            <a href="">Outstation</a>
+          <div id="daily" onclick="daily()" style="border-bottom: 2px solid black;">
+            <a href="#" style="font-weight: 600;" id="daily1">Daily</a>
+          </div>
+          <div id="rental" onclick="rental()">
+            <a href="#" id="rental1">Rental</a>
+          </div>
+          <div id="outstation" onclick="outstation()">
+            <a href="#" id="outstation1">Outstation</a>
+          </div>
         </div>
+      <!-- </div> -->
+
+
         <div class="box2">
             <div class="box2-box">
                 <span class="dot-green"></span>
@@ -629,20 +641,6 @@
  
  
  <!-- ----------------------------Adarsh End------------------------------------------------    -->
-    <script>
-        function openNav() {
-        document.getElementById("sideNavbar").style.width = "376px";
-        // let counter=0;
-        // counter=counter+1;
-        // console.log(counter);
-
-        }
-
-        function closeNav() {
-        document.getElementById("sideNavbar").style.width = "0";
-        }
-
     
-    </script>
 </body>
 </html>
